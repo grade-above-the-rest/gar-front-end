@@ -1,11 +1,17 @@
 <html>
 	<head>
 		<title>Contact Us</title>
+		<script="javascript" src="http://cdn.jsdelivr.net/gh/gradeabovetherest/gar-front-end/mail.js">
+			function send()
+			{
+				data();
+			}
+		</script>
 	</head>
 
 	<body>
 
-	<form method="post" novalidate action="https://github.com/grade-above-the-rest/gar-front-end/blob/master/mail.js">
+	<form method="post" novalidate action=(send())>
 		
 		<label for="first-name">First Name: </label>
 		<input type="text" name="first-name" id="First_Name"><br>

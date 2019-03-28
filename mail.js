@@ -13,7 +13,7 @@ var mailInfo = mailer.createTransport({
 var mailMessage = {
   from: document.write(document.getElementById("Email").value,
   to: 'gradeabovetherest@gmail.com',
-  subject: 'Sending Email using Node.js',
+  subject: document.write(document.getElementById("Subject").value,
   text: document.write(document.getElementById("First_Name").value + "<br>" + 
 						document.getElementById("Last_Name").value) + "<br><br>" +
 						document.getElementById("Message_Box").value) + "<br><br>") 

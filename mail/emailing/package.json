@@ -1,0 +1,22 @@
+{
+  "name": "emailing",
+  "version": "1.0.0",
+  "description": "contact form mailer test",
+  "main": "mail.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "keywords": [
+    "mailer"
+  ],
+  "author": "Troy Amlee",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "emailjs": "^2.2.0",
+    "mailjs": "^0.1.18"
+  }
+}
